@@ -1,4 +1,7 @@
 #!/bin/bash -e
+# Install all pcl (https://github.com/PointCloudLibrary/pcl) deps.
+# Verified on Ubuntu 14.04.4.
+
 # Install ubuntu packages
 sudo apt-get update
 sudo apt-get install libflann-dev libvtk5-dev libboost-all-dev libusb-1.0-0-dev libqhull-dev libpcap0.8-dev
